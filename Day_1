@@ -1,0 +1,21 @@
+What NodeJs is?
+===============
+-Opensource and cross-platform JavaScript runtime environment.
+-Allows to run JavaScript on the server(outside the browser).
+-Built on Google Chrome's JavaScript V8 Engine. 
+-Single threaded, non-blocking, and event-driven execution model.
+-It is used to develop I/O intensive web applications. 
+-ex:video streaming sites, real-time chat application, Game servers and web applications.
+-It's not the best choice for CPU intensive work.(Complex calculations)
+
+
+	Browser					 Node.js
+======================================================
+-DOM (document)				-No DOM
+-Window						-No Window (global)
+-Cookies					-No Cookies
+-Offline Storage            -No Offline Storage
+-No FileSystem				-FileSystem
+-Database Interaction(No)	-Database Interaction(yes)
+-Client Apps/ UI			-Server side Apps / Back-End
+-Consume APIs				-Develop APIs
